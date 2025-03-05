@@ -6,7 +6,7 @@ includes("lib/commonlibsse")
 
 -- set project
 set_project("absorb-xp-fix")
-set_version("0.0.0")
+set_version("1.1.0")
 set_license("GPL-3.0")
 
 -- set defaults

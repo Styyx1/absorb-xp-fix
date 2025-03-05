@@ -11,7 +11,7 @@ I was only able to test it quite limited cause not many mods add absorb type con
 ## Getting Started
 ```bat
 git clone https://github.com/Styyx1/absorb-xp-fix --recursive
-cd commonlibsse-template
+cd absorb-xp-fix
 ```
 
 ### Build

@@ -1,6 +1,8 @@
-# CommonLibSSE Plugin Template
+# absorb-xp-fix
 
-This is a basic plugin template using CommonLibSSE.
+In the vanilla game, concentration spells with the Absorb archetype (such as Vampiric Drain) do not grant experience when used. This SKSE plugin fixes that issue, ensuring that these spells properly contribute to skill progression. Lightweight, efficient, and seamlessly integrated into the game.
+It will work with all mod added spells and does not need any patches. 
+I was only able to test it quite limited cause not many mods add absorb type concentration spells and from my limited testing, it appears that only concentration spells are affected and other absorb spells grant experience just fine.
 
 ### Requirements
 * [XMake](https://xmake.io) [2.8.2+]
@@ -8,7 +10,7 @@ This is a basic plugin template using CommonLibSSE.
 
 ## Getting Started
 ```bat
-git clone --recurse-submodules https://github.com/qudix/commonlibsse-template
+git clone https://github.com/Styyx1/absorb-xp-fix --recursive
 cd commonlibsse-template
 ```
 
@@ -41,6 +43,3 @@ If you want to upgrade the project's dependencies, run the following commands:
 xmake repo --update
 xmake require --upgrade
 ```
-
-## Documentation
-Please refer to the [Wiki](../../wiki/Home) for more advanced topics.
